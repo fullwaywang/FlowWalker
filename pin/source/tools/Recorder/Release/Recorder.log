@@ -1,0 +1,19 @@
+﻿生成启动时间为 14-8-19 14:03:45。
+     1>项目“Z:\taint\FlowWalker\pin\source\tools\Recorder\Recorder.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\Recorder.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\include\pin /I..\..\include\pin\gen /I..\InstLib /I"..\..\..\extras\xed2-ia32\include" /I..\..\..\extras\components\include /nologo /W3 /WX- /O2 /Oi /Oy- /D TARGET_IA32 /D HOST_IA32 /D TARGET_WINDOWS /D BIGARRAY_MULTIPLIER=1 /D USING_XED /D _CRT_SECURE_NO_DEPRECATE /D _SECURE_SCL=0 /D WIN32 /Gm- /MT /GS- /Gy /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /wd4530 /analyze- /errorReport:prompt Recorder.cpp /EHs- /EHa- 
+         Recorder.cpp
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Z:\taint\FlowWalker\Release\Recorder.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\..\..\ia32\lib /LIBPATH:"..\..\..\ia32\lib-ext" /LIBPATH:"..\..\..\extras\xed2-ia32\lib" pin.lib libxed.lib libcpmt.lib libcmt.lib pinvm.lib kernel32.lib "ntdll-32.lib" /NODEFAULTLIB /MANIFEST:NO /DEBUG /PDB:"Z:\taint\FlowWalker\Release\Recorder.pdb" /OPT:REF /TLBID:1 /ENTRY:"Ptrace_DllMainCRTStartup@12" /BASE:"0x55000000" /DYNAMICBASE /NXCOMPAT /IMPLIB:"Z:\taint\FlowWalker\Release\Recorder.lib" /MACHINE:X86 /DLL Release\Recorder.obj /export:main 
+            正在创建库 Z:\taint\FlowWalker\Release\Recorder.lib 和对象 Z:\taint\FlowWalker\Release\Recorder.exp
+         Recorder.vcxproj -> Z:\taint\FlowWalker\Release\Recorder.dll
+       FinalizeBuildStatus:
+         正在删除文件“Release\Recorder.unsuccessfulbuild”。
+         正在对“Release\Recorder.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“Z:\taint\FlowWalker\pin\source\tools\Recorder\Recorder.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.24
